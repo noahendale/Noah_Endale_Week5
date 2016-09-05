@@ -143,7 +143,7 @@ table {
   border-spacing: 0;
 }
 
-body, body a, figure {
+body, figure {
   margin: 0;
 }
 
@@ -152,7 +152,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 0;
 }
 
-body, body a {
+body {
   font-family: 'Lato', "Source Sans Pro", sans-serif;
   color: #585858;
 }
@@ -160,6 +160,11 @@ body, body a {
 body .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+body a {
+  font-family: 'Raleway', sans-serif;
+  color: #585858;
 }
 
 body header {
@@ -175,6 +180,7 @@ body header h1 {
 
 body header p {
   font-size: 1.3rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 body header select {
@@ -265,6 +271,10 @@ body .container .meals:hover a {
   display: block;
 }
 
+body #link {
+  margin-top: 3vw;
+}
+
 body #link a {
   font-size: 1.8rem;
 }
@@ -305,6 +315,9 @@ body footer {
 }
 
 @media (max-width: 650px) {
+  body .wrapper {
+    max-width: 300px;
+  }
   body .wrapper .container .meals {
     width: 100%;
     height: 32vw;
